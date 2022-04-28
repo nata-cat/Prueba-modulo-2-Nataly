@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80) ;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 40%;
+    margin: 5%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 4em;
+    color: #10452fff;
+}
+
+.subtitulo-section {
+    color: #10452fff;
+}
+
+
+.icon-wrapper {
+    width: 30%;
+    margin: 0;
+}
+
+.card-body > a {
+    border: solid;
+    border-color: #10452fff;
+    color: #10452fff;
+}
+
+.card-body > a:hover {
+    border: solid;
+    border-color: #10452fff;
+    background-color: #10452fff;
+}
+
+.card-body h5 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.08em;
+}
+
+#nuestro-cafe {
+    height: 40%;
+    background-color: #111111ff;
+}
+
+#foto-manos {
+    width: 100%;
+    position: relative;
+}
+
+.foto-notas {
+    transition: transform 0.5s;
+}
+
+.foto-notas:hover {
+    box-shadow: 0 0 30px #c8973bff !important;
+    transform: scale(1.05);
+}
+
+#form-suscribe {
+    background-image: url(https://images.unsplash.com/photo-1531303511320-729cbf66254f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3027&q=80) ;
+    background-size: cover;
+}
+
+#tituo-suscribe {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1em;
+}
+
+
+#foto {
+    width: 100%;
+}
+
+footer {
+    background-color: #111111ff;
+}
+
+#fotofooter {
+    width: 12em;
+}
+
+.icono-footer {
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.icono-footer:hover {
+    color: #c8973bff;
+}
+
+#boton-blanco {
+    border: solid;
+    border-color: #c8973bff;
+}
+
+#boton-blanco:hover {
+    border-color: #ffffff;
+}
+
+footer p {
+    font-size: 0.5em;
+    font-weight: 300;
+}
