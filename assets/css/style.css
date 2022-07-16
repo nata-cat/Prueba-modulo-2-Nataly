@@ -10,10 +10,11 @@ body {
 }
 
 header {
-    background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80) ;
+    background-image: url(https://images.unsplash.com/photo-1515694590185-73647ba02c10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) ;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
+    box-shadow: 0px 0 500px 2000px #11121159 inset;
 }
 
 #logo {
@@ -29,11 +30,11 @@ h1 {
 h2 {
     font-family: 'Bebas Neue', cursive; 
     font-size: 4em;
-    color: #10452fff;
+    color: #204431;
 }
 
 .subtitulo-section {
-    color: #10452fff;
+    color: #204431;
 }
 
 
@@ -44,14 +45,16 @@ h2 {
 
 .card-body > a {
     border: solid;
-    border-color: #10452fff;
-    color: #10452fff;
+    border-color: #204431;
+    color: #ffffff;
+    background-color: #204431;
 }
 
 .card-body > a:hover {
     border: solid;
-    border-color: #10452fff;
-    background-color: #10452fff;
+    border-color: #204431;
+    background-color: #ffffff;
+    color: #204431;
 }
 
 .card-body h5 {
@@ -61,7 +64,7 @@ h2 {
 
 #nuestro-cafe {
     height: 40%;
-    background-color: #111111ff;
+    background-color: #111211;
 }
 
 #foto-manos {
@@ -74,8 +77,8 @@ h2 {
 }
 
 .foto-notas:hover {
-    box-shadow: 0 0 30px #c8973bff !important;
-    transform: scale(1.05);
+    box-shadow: 0 0 30px #C0994D !important;
+    transform: scale(1);
 }
 
 #form-suscribe {
@@ -94,7 +97,7 @@ h2 {
 }
 
 footer {
-    background-color: #111111ff;
+    background-color: #111211;
 }
 
 #fotofooter {
@@ -102,24 +105,37 @@ footer {
 }
 
 .icono-footer {
-    font-size: 2em;
+    font-size: 0.8em;
     transition: 0.5s;
 }
 
 .icono-footer:hover {
-    color: #c8973bff;
+    color: #C0994D;
 }
 
 #boton-blanco {
     border: solid;
-    border-color: #c8973bff;
+    border-color: #ffffff;
+    color: #111211;
+    background-color: #ffffff;
 }
 
 #boton-blanco:hover {
-    border-color: #ffffff;
+    border: solid;
+    border-color: #C0994D;
+    color: #ffffff;
+    background-color: #ffffff00;
 }
 
 footer p {
     font-size: 0.5em;
     font-weight: 300;
+}
+
+#footer-id {
+    width: auto;
+}
+
+.parrafo-footer {
+    font-size: 0.8em;
 }
